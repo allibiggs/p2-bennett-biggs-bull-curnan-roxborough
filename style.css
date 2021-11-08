@@ -1,2 +1,45 @@
-font-family: 'Roboto Slab', serif;
-font-family: 'arial', serif;
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* 
+
+FONTS
+font-family: 'Roboto Slab', serif;      <-- body font
+font-family: 'arial', serif;            <-- headers/bold font
+
+COLORS
+#485cc7     <-- signature blue
+#f1b434     <-- signature yellow
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+/* START OF CONTACT PAGE CSS */
+
+/*START STICKY FOOTER*/
+
+.site {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.site-content {
+	flex: 1;
+}
+
+/*END STICKY FOOTER*/
+
+/* END OF CONTACT PAGE CSS */
