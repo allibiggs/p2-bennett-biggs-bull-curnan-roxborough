@@ -42,4 +42,45 @@ COLORS
 
 /*END STICKY FOOTER*/
 
+header {
+    display: flex;
+	align-items: center;
+	background-color: beige; 	/*this is a random color so I can see contrast*/
+}
+
+.logo-container {
+    margin-left: 40px;
+}
+
+.logo {
+    width: 100%;
+    max-width: 160px;
+}
+
+nav {
+    flex-grow: 2;
+    font-family: 'Arial', serif;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+	list-style-type: none;
+}
+
+nav ul li {
+    padding: 0 6%;
+	font-size: 1.4em;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #485cc7;
+}
+
+nav ul li a:hover {
+	color: #f1b434;
+	transition-duration: 0.3s;
+}
+
 /* END OF CONTACT PAGE CSS */
