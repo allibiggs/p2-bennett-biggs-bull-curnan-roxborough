@@ -15,9 +15,11 @@
 			<script src="js/html5shiv-printshiv.min.js"></script>
 		<![endif]-->
 
+    <script src="https://kit.fontawesome.com/e4fe9751f4.js" crossorigin="anonymous"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">  
 
 	</head>
 
@@ -50,22 +52,22 @@
             <p>Complete the form below to get added to our contact list.</p>
 
             <form class="contact-form">
-              <label for="fname">First name:</label>
-              <input type="text" id="fname" name="fname" required>
+              <div class="form-label">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" required>
+              </div>
 
-              <br>
+              <div class="form-label">
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" required>
+              </div>
 
-              <label for="lname">Last name:</label>
-              <input type="text" id="lname" name="lname" required>
+              <div class="form-label">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
 
-              <br>
-
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" required>
-
-              <br>
-
-              <input type="submit" value="Send">
+              <button type="submit">Submit</button>
 
             </form>
           
@@ -91,20 +93,19 @@
     <footer>
       <div>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Get Involved</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Get Involved</a></li>
             <li><a href="#">Donate</a></li>
             <li><a href="#">Careers</a></li>
-            <li><a href="#">FAQ</a></li>
+            <li><a href="faq.html">FAQ</a></li>
         </ul> 
       </div>
 
-      <div class="col-3">
-        <ul class="socialicons row row-cols-auto fa-ul">
-            <li><a href="#"><span class="fa-li"><i class="fab fa-facebook fa-2x"></i></span></a></li>
-            <li><a href="#"><span class="fa-li"><i class="fab fa-instagram fa-2x"></i></span></a></li>
-            <li><a href="#"><span class="fa-li"><i class="fab fa-youtube fa-2x"></i></span></a></li>
-        </ul>
+      <div class="socialicons">
+        <a href="https://www.facebook.com/MDAorg/"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/MDAorg"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.youtube.com/user/MySpaceMDA"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.instagram.com/mdaorg/"><i class="fab fa-instagram"></i></a>
       </div>
     </footer>
 
