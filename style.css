@@ -16,6 +16,17 @@ COLORS
 
 */
 
+/* START UNIVERSAL STYLING */
+
+h1, h2, h3 {
+	font-family: 'arial', serif; 
+}
+
+h4, h5, h6, p {
+	font-family: 'Roboto Slab', serif;
+}
+
+/* END UNIVERSAL STYLING */
 
 
 
@@ -33,7 +44,7 @@ COLORS
 .site {
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh;
+	min-height: 93vh;
 }
 
 .site-content {
@@ -44,20 +55,22 @@ COLORS
 
 header {
     display: flex;
-	align-items: center;
-	background-color: beige; 	/*this is a random color so I can see contrast*/
+	background-color:#f1b434 ; 	/*this is a random color so I can see contrast*/
 }
 
 .logo-container {
-    margin-left: 40px;
+    margin-left: 4%;
+	background-color: white;
 }
 
 .logo {
+    min-width: 120px;
+	max-width: 160px;
     width: 100%;
-    max-width: 160px;
 }
 
-nav {
+nav,
+footer {
     flex-grow: 2;
     font-family: 'Arial', serif;
     font-weight: bold;
@@ -69,8 +82,9 @@ nav ul {
 }
 
 nav ul li {
-    padding: 0 6%;
-	font-size: 1.4em;
+    padding: 56px 3%;
+    font-size: 1.4em;
+    text-align: center;
 }
 
 nav ul li a {
@@ -78,9 +92,62 @@ nav ul li a {
 	color: #485cc7;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+footer ul li a:hover {
 	color: #f1b434;
 	transition-duration: 0.3s;
+	background-color: #485cc7;
 }
+
+.form-loc-container {
+	display: flex;
+	padding: 50px;
+	width: 900px;
+	margin: 0 auto;
+}
+
+.form-container {
+    padding: 25px;
+    border: #485cc7 solid;
+    border-radius: 12px;
+}
+
+.form-container h1 {
+	font-size: 3em;
+}
+
+.form-container p {
+	font-size: 1.2em;
+}
+
+.contact-form {
+    padding-top: 15px;
+	font-family: 'Roboto Slab', serif;
+}
+
+.placeholder {
+    width: 500px;
+}
+
+footer {
+	background-color: #485cc7;
+	color: white;
+}
+
+footer ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+footer ul li {
+    padding: 10px 3%;
+}
+
+footer ul li a {
+	color: white;
+}
+
+
 
 /* END OF CONTACT PAGE CSS */
