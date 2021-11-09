@@ -44,7 +44,7 @@ h4, h5, h6, p {
 .site {
 	display: flex;
 	flex-direction: column;
-	min-height: 93vh;
+	min-height: 90vh;
 }
 
 .site-content {
@@ -95,25 +95,30 @@ nav ul li a {
 nav ul li a:hover,
 footer ul li a:hover {
 	color: #f1b434;
-	transition-duration: 0.3s;
+	transition: 0.3s;
 	background-color: #485cc7;
 }
 
 .form-loc-container {
-	display: flex;
-	padding: 50px;
-	width: 900px;
-	margin: 0 auto;
+    display: flex;
+    padding: 50px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 900px;
 }
 
 .form-container {
     padding: 25px;
     border: #485cc7 solid;
     border-radius: 12px;
+	background-color: #e3e4f8;
+
 }
 
 .form-container h1 {
 	font-size: 3em;
+	color: #f1b434;
+	text-shadow: 1px 1px 4px black;
 }
 
 .form-container p {
@@ -125,13 +130,42 @@ footer ul li a:hover {
 	font-family: 'Roboto Slab', serif;
 }
 
+.form-label {
+	padding: 10px 0;
+}
+
+input {
+    border: gray solid 0.8px;
+    border-radius: 3px;
+    font-size: 1em;
+    padding: 2%;
+}
+
+button {
+    background-color: #485cc7;
+    padding: 10px;
+    border-radius: 4px;
+    color: #f1b434;
+    font-family: 'Roboto Slab', serif;
+	font-size: 1em;
+}
+
+button:hover {
+	background-color: #f1b434;
+	color: #485cc7;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
 .placeholder {
-    width: 500px;
+    width: 100%;
+	max-width: 448px;
 }
 
 footer {
-	background-color: #485cc7;
-	color: white;
+    background-color: #485cc7;
+    color: white;
+    height: 92px;
 }
 
 footer ul {
@@ -146,8 +180,17 @@ footer ul li {
 
 footer ul li a {
 	color: white;
+	text-decoration: none;
 }
 
+.socialicons {
+    text-align: center;
+}
 
+.socialicons a {
+    color: white;
+    font-size: 2em;
+	padding: 0 10px;
+}
 
 /* END OF CONTACT PAGE CSS */
