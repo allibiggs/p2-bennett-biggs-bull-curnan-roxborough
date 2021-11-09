@@ -16,7 +16,7 @@ COLORS
 
 */
 
-/* START UNIVERSAL STYLING */
+/****************** START UNIVERSAL STYLING ******************/
 
 h1, h2, h3 {
 	font-family: 'arial', serif; 
@@ -26,18 +26,6 @@ h4, h5, h6, p {
 	font-family: 'Roboto Slab', serif;
 }
 
-/* END UNIVERSAL STYLING */
-
-
-
-
-
-
-
-
-
-
-/* START OF CONTACT PAGE CSS */
 
 /*START STICKY FOOTER*/
 
@@ -53,9 +41,11 @@ h4, h5, h6, p {
 
 /*END STICKY FOOTER*/
 
+/* START OF NAV AND FOOTER */
+
 header {
     display: flex;
-	background-color:#f1b434 ; 	/*this is a random color so I can see contrast*/
+	background-color:#f1b434; 
 }
 
 .logo-container {
@@ -98,6 +88,56 @@ footer ul li a:hover {
 	transition: 0.3s;
 	background-color: #485cc7;
 }
+
+footer {
+    background-color: #485cc7;
+    color: white;
+    height: 92px;
+}
+
+footer ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+footer ul li {
+    padding: 10px 3%;
+}
+
+footer ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+.socialicons {
+    text-align: center;
+}
+
+.socialicons a {
+    color: white;
+    font-size: 2em;
+	padding: 0 10px;
+}
+
+/* END OF NAV AND FOOTER */
+
+
+/****************** END UNIVERSAL STYLING ******************/
+
+
+
+
+
+
+
+
+
+
+/* START OF CONTACT PAGE CSS */
+
+
+
 
 .form-loc-container {
     display: flex;
@@ -162,35 +202,5 @@ button:hover {
 	max-width: 448px;
 }
 
-footer {
-    background-color: #485cc7;
-    color: white;
-    height: 92px;
-}
-
-footer ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-}
-
-footer ul li {
-    padding: 10px 3%;
-}
-
-footer ul li a {
-	color: white;
-	text-decoration: none;
-}
-
-.socialicons {
-    text-align: center;
-}
-
-.socialicons a {
-    color: white;
-    font-size: 2em;
-	padding: 0 10px;
-}
 
 /* END OF CONTACT PAGE CSS */
