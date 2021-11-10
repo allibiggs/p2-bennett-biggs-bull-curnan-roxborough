@@ -188,10 +188,9 @@ div.family {
 
 .form-loc-container {
     display: flex;
-    padding: 50px;
-    width: 100%;
-    margin: 0 auto;
+    margin: 50px auto;
     max-width: 900px;
+    padding: 0 4%;
 }
 
 .form-container {
@@ -246,7 +245,14 @@ button:hover {
 
 .placeholder {
     width: 100%;
-	max-width: 448px;
+	max-width: 450px;
+}
+
+@media (max-width: 900px) {
+    .form-loc-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 
