@@ -223,7 +223,7 @@ img.camp {
     padding: 15px 4%;
     text-align: center;
     color: #ffffff;
-    
+    margin-bottom: 5%;
 }
 
 div.camp-content {
@@ -270,6 +270,28 @@ img.fam {
     padding-bottom: 8%;
 }
 
+@media (min-width: 750px) {
+
+    img.camp {
+        padding: 10%;
+        max-height: 375px;
+    }
+
+    .right h1 {
+        padding: 0px 4%;
+    }
+    
+    .right p {
+        padding: 45px 10%;
+        
+    }
+
+    img.fam {
+        max-height: 179px;
+        padding-bottom: 4%;
+    }
+
+}
 
 @media (min-width: 900px) {
     .camp-container {
@@ -278,6 +300,24 @@ img.fam {
 
     .left {
         text-align: left;
+    }
+
+}
+
+@media (min-width: 1000px) {
+
+    .right h1 {
+        padding: 40px 25%;
+    }
+    
+    .right p {
+        padding: 0px 20%;
+        
+    }
+
+    img.fam {
+        max-height: 229px;
+        padding-bottom: 4%;
     }
 
 }
