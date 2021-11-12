@@ -310,11 +310,11 @@ img.fam {
 
     img.camp {
         padding: 10%;
-        max-height: 500px;
+        max-height: 375px;
     }
 
     .right h1 {
-        padding: 40px 25%;
+        padding: 11px 25%;
         margin-top: 10%;
     }
     
@@ -330,7 +330,12 @@ img.fam {
 
 }
 
-@media (min-width: 1350px) {
+@media (min-width: 1400px) {
+
+    img.camp {
+        padding: 10%;
+        max-height: 500px;
+    }
 
     .right h1 {
         padding: 40px 28%;
@@ -377,7 +382,7 @@ img.fam {
 }
 
 
-
+/* END OF HOME PAGE CSS */
 
 
 
