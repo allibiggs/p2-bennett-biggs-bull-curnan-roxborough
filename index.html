@@ -8,6 +8,7 @@
 		<title>MDA Summer Camp</title>
 
 		<link type="text/css" rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/a07d260820.js" crossorigin="anonymous"></script>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -33,7 +34,9 @@
           <a href="index.html"><img class="logo" src="images/MDA2.png" alt="MDA Summer Camp" title="MDA Summer Camp"/></a>
         </div>
         
-        <nav>
+        <button id="hamburger" class="hamburger"><i class="fas fa-bars"></i></button>
+
+        <nav id="mobile" class="mobile hide">
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="contact.html">Get Involved</a></li>
@@ -51,6 +54,27 @@
             </div> 
           </ul>
         </nav>
+
+        <nav class="desktop">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Get Involved</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <div class="dropdown">
+              <li class="droplink"><a href="#">About</a> 
+              </li>
+              <div class="dropdown-content">
+                <ul class="dropdown-list">
+                <li><a href="#">Volunteer</a></li>
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Our Team</a></li>
+                </ul>
+              </div>
+            </div> 
+          </ul>
+        </nav>
+
+
       </header>
 
       <div class="site-content">
@@ -109,6 +133,8 @@
         <a href="https://www.instagram.com/mdaorg/"><i class="fab fa-instagram"></i></a>
       </div>
     </footer>
+
+    <script src="index.js"></script>
 
 	</body>
 

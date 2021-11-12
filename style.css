@@ -48,6 +48,7 @@ h4, h5, h6, p {
 
 header {
     display: flex;
+    /* justify-content: space-between; */
 	background-color:#f1b434; 
 }
 
@@ -68,6 +69,32 @@ footer {
     font-family: 'Arial', serif;
     font-weight: bold;
 }
+
+.desktop {
+    display: none;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.hamburger {
+    clear: right;
+}
+
+.mobile ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    position: absolute;
+    background: #f1b434;
+    /* align-items: flex-end; */
+}
+
 
 nav ul {
     display: flex;
@@ -156,6 +183,15 @@ ul .dropdown-list li {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+@media (min-width: 700px) {
+    .desktop {
+        display: block;
+    }
+    .hamburger {
+        display: none;
+    }
+}
 
 /* END OF NAV AND FOOTER */
 
