@@ -240,6 +240,7 @@ img.shine {
 div.camp-content h2 {
     padding-bottom: 5%;
     color: #f1b434;
+    font-family: 'arial', serif; 
 }
 
 div.family {
@@ -251,6 +252,7 @@ div.family {
 div.family h3 {
     padding-bottom: 5%;
     color: #485cc7;
+    font-family: 'arial', serif; 
 }
 
 div.family p {
@@ -306,8 +308,14 @@ img.fam {
 
 @media (min-width: 1000px) {
 
+    img.camp {
+        padding: 10%;
+        max-height: 500px;
+    }
+
     .right h1 {
         padding: 40px 25%;
+        margin-top: 10%;
     }
     
     .right p {
@@ -321,6 +329,53 @@ img.fam {
     }
 
 }
+
+@media (min-width: 1350px) {
+
+    .right h1 {
+        padding: 40px 28%;
+    }
+    
+    .right p {
+        padding: 8px 30%;
+        
+    }
+
+    img.fam {
+        max-height: 329px;
+        padding-bottom: 2%;
+    }
+
+    img.shine {
+        max-height: 300px;
+        padding-bottom: 5%;
+    }
+
+    div.camp-content h2 {
+        padding-bottom: 2%;
+        font-size: 2em;
+    }
+
+    div.camp-content p {
+        padding: 0px 15%;
+    }
+    
+    div.family h3 {
+        padding-bottom: 2%;
+        font-size: 2em;
+    }
+    
+    div.family p {
+        padding: 0px 15%;
+    }
+    
+    div.come {
+        margin-bottom: 7%;
+        font-size: 3em;      
+    }
+
+}
+
 
 
 
