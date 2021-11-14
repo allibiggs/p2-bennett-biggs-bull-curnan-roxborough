@@ -462,3 +462,18 @@ button:hover {
 
 
 /* END OF CONTACT PAGE CSS */
+
+
+/* FAQ CSS */
+#map-label {
+    color: #f1b434;
+    text-align: center;
+    padding: 2%;
+}
+
+#map {
+  height: 70vh;
+  width: 50vw;
+  margin: auto;
+}
+
