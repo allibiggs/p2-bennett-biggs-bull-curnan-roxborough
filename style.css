@@ -469,17 +469,33 @@ button:hover {
 
 /* END OF CONTACT PAGE CSS */
 
-/* FAQ PAGE CSS */
+/* FAQ Page */
 
-/*.faq-accordion h1 {
-    font-size: 3em;
+/*.faq1 {
+    display: flex;
+    width: 100vw;
+}
+
+.image1 {
+    width: 50vw;
+} 
+
+@media (min-width: 320px) {
+    .faq1 {
+        flex: 100%;
+    }
+} */
+
+.faq-accordion h1 {
+    font-size: 2.5em;
 	color: #f1b434;
-    text-align: center;
     padding: 3%;
 }
 
 .faq-accordion {
     padding: 0 8% 5% 8%;
+    width: 50vw;
+    justify-content: center;
 }
 
 .accordion {
@@ -500,5 +516,6 @@ button:hover {
     display: none;
     overflow: hidden;
 }
-*/
 
+
+/* End of FAQ Page */
