@@ -448,17 +448,57 @@ button:hover {
 	cursor: pointer;
 }
 
-.placeholder {
-    width: 100%;
-	max-width: 450px;
+#map {
+  height: 50vh;
+  width: 30vw;
 }
+
 
 @media (max-width: 900px) {
     .form-loc-container {
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    #map {
+        height: 30vh;
+        width: 80vw;
+    }
 }
 
 
 /* END OF CONTACT PAGE CSS */
+
+/* FAQ PAGE CSS */
+
+.faq-accordion h1 {
+    font-size: 3em;
+	color: #f1b434;
+    text-align: center;
+    padding: 3%;
+}
+
+.faq-accordion {
+    padding: 0 8% 5% 8%;
+}
+
+.accordion {
+    border-radius: 0;
+    width: 100%;
+    transition: 0.5s;
+    padding: 2%;
+}
+
+.active, 
+.accordion:hover {
+    background-color: #f1b434;
+	color: #485cc7;
+}
+
+.panel {
+    padding: 3%;
+    display: none;
+    overflow: hidden;
+}
+
+

@@ -21,6 +21,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">  
 
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
 	</head>
 
 	<body>
@@ -113,8 +115,8 @@
 
             <!-- START API Locations Map -->
 
-              <img class="placeholder" src="images/mda20.jpg" alt="placeholder" title="placeholder"/>
-
+              <!--<img class="placeholder" src="images/mda20.jpg" alt="placeholder" title="placeholder"/>-->      
+               <div id="map"></div>
 
             <!-- END API Locations Map -->
 
@@ -144,6 +146,11 @@
         <a href="https://www.instagram.com/mdaorg/"><i class="fab fa-instagram"></i></a>
       </div>
     </footer>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjQnb9s0ClpQ4K7zy2Qy_Wj6vkjXXb7Wo&callback=initMap" async
+      defer></script>
+
+    <script src="index.js"></script>
 
 	</body>
 
